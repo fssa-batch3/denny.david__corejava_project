@@ -9,7 +9,6 @@ interface Boundary {
 }
 
 class Rectangle3 implements ShapeInf, Boundary {
-	
 	@Override
 	public void draw() {
 		System.out.println("Drawing a Rectangle by implementing inf");
