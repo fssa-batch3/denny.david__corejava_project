@@ -44,7 +44,7 @@ class Student {
 public class Main {
 	public static void main(String[] args) {
 		Department depart=new Department("Developer", 4);
-		Student std=new Student("Pranaw", 4, depart);
+		Student std=new Student("Denny", 4, depart);
 		std.getStudent();
 	}
 

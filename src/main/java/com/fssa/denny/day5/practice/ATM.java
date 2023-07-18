@@ -1,6 +1,8 @@
 package com.fssa.denny.day5.practice;
 
  class Account {
+	 String accNo;
+		double balance;
 	public String getAccNo() {
 		return accNo;
 	}
@@ -21,8 +23,7 @@ package com.fssa.denny.day5.practice;
 		this.balance = balance;
 	}
 
-	String accNo;
-	double balance;
+	
 
 }
 
