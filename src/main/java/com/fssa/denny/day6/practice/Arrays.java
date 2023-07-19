@@ -17,7 +17,7 @@ public class Arrays{
 		  for(int j=0; j<cityList.size()-1; j++) {
 			if(cityList.get(i).equals(cityList.get(j))) {
 				
-				   cityList.removeduplicates();
+				   cityList.remove(j);
 				   continue;
 				    	
 	          }	
