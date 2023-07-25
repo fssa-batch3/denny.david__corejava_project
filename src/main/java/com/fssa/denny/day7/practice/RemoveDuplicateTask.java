@@ -1,7 +1,6 @@
 package com.fssa.denny.day7.practice;
 
-import java.util.*;
-import java.time.*;
+import java.time.LocalDate;
 
 class Task {
 	private int id;
@@ -9,33 +8,34 @@ class Task {
 	private LocalDate deadline;
 	
 	
-	public int getid(int id) {
-		return getid(id);
+	public int getid() {
+		return id;
 	}
 	public void setid(int id) {
-	  this.setid(id);
+	  this.id = id;
 	}
-	public String getname1(String name) {
-		return getname1(name);
+	public String getname1() {
+		return name;
 	}
 	public void setname1(String name) {
-	  this.setname1(name);
+	  this.name = name;
 	}
 	
 	public LocalDate getdeadline1() {
 		return deadline;
 	}
-	public void setdeadline1(Localdate deadline) {
+	public void setdeadline1(LocalDate deadline) {
 		this.deadline = deadline;
 	}
-	@Override 
-	public boolean check(Object obj) {
+	
+	public boolean compare(Object obj) {
 		if(this == obj) {
 			return true;
 		}
 		if(obj == null) {
 			return false;
 		}
+		return false;
 	}
 	
       
@@ -46,7 +46,8 @@ public class RemoveDuplicateTask {
 	details.setid(2);
 	details.setname1("Denny");
 	details.setname1("Denny");
-	details.setdeadline(LocalDate.of(2017, 11, 10));
+	details.setdeadline1(LocalDate.of(2017, 11, 10));
+	
 
 }
 }

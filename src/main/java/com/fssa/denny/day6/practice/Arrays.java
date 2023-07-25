@@ -11,21 +11,21 @@ public class Arrays{
 		cityList.add("Bangalore");
 		cityList.add("Chennai");
 		cityList.add("Mumbai");
+		cityList.add("Tuticorin");
+		cityList.remove("Tuticorin");
 		
 	    // remove duplicates from the list
-		for(int i=0; i<cityList.size()-1; i++) {
-		  for(int j=0; j<cityList.size()-1; j++) {
-			if(cityList.get(i).equals(cityList.get(j))) {
-				
-				   cityList.remove(j);
-				   continue;
-				    	
-	          }	
-			}
-			
-		   
-		    
-		}
+//		for(int i=0; i<cityList.size()-1; i++) {
+//		  for(int j=0; j<cityList.size()-1; j++) {
+//			if(cityList.get(i).equals(cityList.get(j))) {
+//				
+//				   cityList.remove(j);
+//				   continue;
+//				    	
+//	          }	
+//			}
+//			 
+//		}
         	System.out.println(cityList);
 //		for(String str: cityList) {
 //			cityList.remove(3);
